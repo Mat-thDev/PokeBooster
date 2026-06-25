@@ -1,0 +1,29 @@
+@plugin "daisyui/theme" {
+    name: "Obsidian";
+    default: false;
+    prefersdark: true;
+    color-scheme: "dark";
+
+    --color-base-100: oklch(14% 0.025 275);
+    --color-base-200: oklch(17% 0.025 275);
+    --color-base-300: oklch(24% 0.025 275);
+    --color-base-content: oklch(90% 0.01 275);
+
+    --color-primary: oklch(62% 0.24 290);
+    --color-primary-content: oklch(14% 0.02 290);
+
+    --color-secondary: oklch(72% 0.16 305);
+    --color-accent: oklch(76% 0.14 162);
+
+    --color-info: oklch(68% 0.14 250);
+    --color-success: oklch(76% 0.14 162);
+    --color-warning: oklch(84% 0.15 80);
+    --color-error: oklch(62% 0.20 20);
+
+    --border: 1px;
+    --radius-selector: 0.5rem;
+    --radius-field: 0.4rem;
+    --radius-box: 0.75rem;
+    --depth: 1;
+    --noise: 1;
+}
